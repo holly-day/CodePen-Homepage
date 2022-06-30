@@ -1,0 +1,92 @@
+.page-container {
+    background-color: #414042;
+    box-shadow: inset -100px -70px 500px 120px rgb(0 0 0 / 77%);
+    display: grid;
+    grid-template-columns: 1.1fr .9fr;
+}
+
+/* Left side styles */
+
+
+.left > .left-content {
+    width: 80%;
+    padding: 50px 0px 15px 70px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.left > .left-content h3 {
+    font-size: 3.2rem;  
+    font-weight: lighter; 
+    line-height: 70px;
+}
+
+.left > .left-content p {
+    font-size: 2.5rem;
+    font-weight: lighter;
+    word-spacing: 1px;
+    line-height: 70px;
+}
+
+.page-container > .left > .more-buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    padding-left: 50px;
+}
+
+.page-container > .left > .more-buttons > .sign-up-btn {
+    width: 50%;
+    height: 100px;
+}
+
+.page-container > .left > .more-buttons > .learn-more-btn {
+    width: 50%;
+    height: 100px;
+}
+
+.page-container > .left > .more-buttons > .sign-up-btn button {
+    width: 90%;
+    background-color: #14b840;
+    color: black;
+    border: green;
+    border-radius: 5px;
+    height: 100px;
+    font-size: 2rem;
+}
+
+.page-container > .left > .more-buttons > .learn-more-btn button {
+    width: 70%;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    height: 100px;
+    font-size: 2rem;
+}
+
+/* Right side styles */
+.page-container > .right {
+    padding-top: 30px;
+    padding-right: 0px;
+}
+
+.page-container > .right h4 {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+    width: 100%;
+}
+
+.page-container > .right h4 a {
+    text-decoration: none;
+    color: #0db2d4;
+}
+
+.page-container > .right > .project-example-img {
+    display: flex;
+    justify-content: right;
+}
+
+.page-container > .right > .project-example-img img {
+    width: 100%;
+}

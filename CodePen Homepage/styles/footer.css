@@ -1,0 +1,21 @@
+/* Footer Styles */
+.footer {
+    background-color: #292c30;
+    color: white;
+    padding: 0px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.footer > .bar {
+
+    border: .5px solid hsl(220, 2%, 34%);
+    text-align: center;
+    width: 100%;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.footer > .bar h4 {
+    font-weight: lighter;
+}
